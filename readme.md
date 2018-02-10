@@ -32,6 +32,11 @@ Open Visual Studio command prompt.
 
 ## zlib
 
+```
 cmake -E make_directory build
+
+// make sure x64 config is used
 cmake -E chdir build cmake -E time cmake -A x64 ..
 
+
+```
