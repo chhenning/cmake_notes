@@ -18,13 +18,14 @@ https://github.com/boost-cmake/bcm/wiki/Cmake-best-practices-and-guidelines
 
 Portable commands via "cmake -E xxx"
 
+```
 cmake -E make_directory build
 
-run cmake in build/ direcory and time the generation
-```cmake -E chdir build cmake -E time cmake ..```
+// run cmake in build/ direcory and time the generation
+cmake -E chdir build cmake -E time cmake ..
 
 cmake -E remove_directory build
-
+```
 
 # Use examples
 
