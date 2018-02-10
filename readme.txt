@@ -21,7 +21,7 @@ Portable commands via "cmake -E xxx"
 cmake -E make_directory build
 
 run cmake in build/ direcory and time the generation
-`cmake -E chdir build cmake -E time cmake ..`
+```cmake -E chdir build cmake -E time cmake ..```
 
 cmake -E remove_directory build
 
