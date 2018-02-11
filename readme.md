@@ -14,6 +14,10 @@ slides: https://github.com/CppCon/CppCon2017/tree/master/Tutorials/Using%20Moder
 Cmake best practices and guidelines
 https://github.com/boost-cmake/bcm/wiki/Cmake-best-practices-and-guidelines
 
+The Ultimate Guide to Modern CMake
+https://rix0r.nl/blog/2015/08/13/cmake-guide/
+
+
 # Commands
 
 Portable commands via "cmake -E xxx"
@@ -36,7 +40,10 @@ Open Visual Studio command prompt.
 ```
 cmake -E make_directory build
 
-// make sure x64 config is used
+// chain of three commands
+// 1. change to build directory
+// 2. time execution of next command
+// 3. generate build script using x64 config
 cmake -E chdir build cmake -E time cmake -A x64 ..
 
 
