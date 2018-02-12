@@ -17,6 +17,11 @@ https://github.com/boost-cmake/bcm/wiki/Cmake-best-practices-and-guidelines
 The Ultimate Guide to Modern CMake
 https://rix0r.nl/blog/2015/08/13/cmake-guide/
 
+Embracing Modern CMake
+https://www.youtube.com/watch?v=JsjI5xr1jxM
+
+Actual CMake documentation
+https://cmake.org/cmake/help/v3.9/manual/cmake-buildsystem.7.html
 
 # Commands
 
