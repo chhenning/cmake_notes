@@ -45,11 +45,15 @@ Open Visual Studio command prompt.
 ```
 cmake -E make_directory build
 
+// generate the build system
 // chain of three commands
 // 1. change to build directory
 // 2. time execution of next command
 // 3. generate build script using x64 config
 cmake -E chdir build cmake -E time cmake -A x64 ..
 
-
+// build release version
+// --build set folder
+cmake --build build --target ALL_BUILD --config Release
+cmake --build build --target RUN_TESTS --config Release
 ```
