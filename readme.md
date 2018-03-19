@@ -57,3 +57,8 @@ cmake -E chdir build cmake -E time cmake -A x64 ..
 cmake --build build --target ALL_BUILD --config Release
 cmake --build build --target RUN_TESTS --config Release
 ```
+
+## poppler
+
+To build poppler on Windows have a look at the build_poppler.bat
+
