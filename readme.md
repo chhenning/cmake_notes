@@ -23,6 +23,10 @@ https://www.youtube.com/watch?v=JsjI5xr1jxM
 Actual CMake documentation
 https://cmake.org/cmake/help/v3.9/manual/cmake-buildsystem.7.html
 
+Visual Studio integration of cmake
+https://blogs.msdn.microsoft.com/vcblog/2016/10/05/cmake-support-in-visual-studio/
+
+
 # Commands
 
 Portable commands via "cmake -E xxx"
