@@ -1,0 +1,3 @@
+D:/repos/cmake_notes/simple_console_app/build/CMakeFiles/foobla.dir
+D:/repos/cmake_notes/simple_console_app/build/CMakeFiles/ALL_BUILD.dir
+D:/repos/cmake_notes/simple_console_app/build/CMakeFiles/ZERO_CHECK.dir
