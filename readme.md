@@ -26,6 +26,8 @@ https://cmake.org/cmake/help/v3.9/manual/cmake-buildsystem.7.html
 Visual Studio integration of cmake
 https://blogs.msdn.microsoft.com/vcblog/2016/10/05/cmake-support-in-visual-studio/
 
+Some modules - beware! some might be old school
+https://github.com/rpavlik/cmake-modules
 
 # Commands
 
