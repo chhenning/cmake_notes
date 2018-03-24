@@ -1,6 +1,4 @@
-# Steps to create cmake project
-
-Boost_Simple console app with boost::filesystem as dependency.
+# Boost_Simple console app with boost::filesystem as a dependency.
 
 A few things to consider
 
