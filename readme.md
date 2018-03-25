@@ -29,6 +29,17 @@ https://blogs.msdn.microsoft.com/vcblog/2016/10/05/cmake-support-in-visual-studi
 Some modules - beware! some might be old school
 https://github.com/rpavlik/cmake-modules
 
+
+# Great examples of cmake files:
+
+https://github.com/valhalla/valhalla/blob/master/CMakeLists.txt
+
+# Great examples of batch files to run cmake
+
+https://github.com/nanodbc/nanodbc/blob/master/utility/build.bat
+
+
+
 # Commands
 
 Portable commands via "cmake -E xxx"
