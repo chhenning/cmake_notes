@@ -22,7 +22,7 @@ pushd %BUILDDIR%
     -A x64 ^
     -DBOOST_ROOT:PATH=D:/boost ^
     -DBOOST_LIBRARYDIR:PATH=D:/boost/stage/lib ^
-    ../gil
+    ..
 
 rem Building
 rem msbuild.exe boost_simple.sln /p:Configuration=Release /p:Platform=x64
