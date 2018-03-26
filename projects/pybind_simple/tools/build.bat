@@ -20,10 +20,9 @@ pushd %BUILDDIR%
 
 "C:/Program Files/CMake/bin/cmake.exe" ^
     -A x64 ^
-    -Dpybind11_DIR="D:/repos/cmake_notes/projects/pybind_simple/cmake" ^
+    -DPYTHON_EXECUTABLE="C:/Python36/python.exe" ^
+    -DCMAKE_PREFIX_PATH="D:/repos/pybind11" ^
     -Dpybind11_INCLUDE_DIR="D:/repos/pybind11/include" ^
-    -DPYTHON_INCLUDE_DIRS="C:/Python36/include" ^
-    -DPYTHON_LIBRARIES="C:/Python36/libs/python36.lib" ^
     ..
 
 rem @echo Building foobla
