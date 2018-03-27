@@ -1,9 +1,6 @@
 @echo off
-rem Runs CMake to configure poppler for Visual Studio 2017.
-rem https://github.com/nanodbc/nanodbc/blob/master/utility/build.bat
 
 if not defined VS150COMNTOOLS goto :NoVS
-
 
 :Build
 set BUILDDIR=build
@@ -20,7 +17,6 @@ pushd %BUILDDIR%
 
 "C:/Program Files/CMake/bin/cmake.exe" ^
     -A x64 ^
-    -DGIL_ENABLE_IO=ON
     -DBOOST_ROOT:PATH=D:/boost ^
     -DBOOST_LIBRARYDIR:PATH=D:/boost/stage/lib ^
     -DCMAKE_TOOLCHAIN_FILE=D:/vcpkg_2017/scripts/buildsystems/vcpkg.cmake ^
@@ -28,8 +24,7 @@ pushd %BUILDDIR%
     ..
 
 rem Building
-rem msbuild.exe boost_simple.sln /p:Configuration=Release /p:Platform=x64
-
+msbuild.exe awesome_gil_project.sln /p:Configuration=Release /p:Platform=x64
 
 popd
 popd
